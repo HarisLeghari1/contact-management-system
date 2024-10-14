@@ -5,13 +5,14 @@ IMPORTANT: Once you've cloned this to your forked repository, ensure that you co
 Please include your shared repository link here:
 https://github.com/HarisLeghari1/A2-Muhammad-20864398.git
 
-TASK 1 - USER INTERFACE CHANGES
+## TASK 1 - USER INTERFACE CHANGES
 1. Change the button label from contact component from "Delete" to "Delete Contact"
+   
    ![image](https://github.com/user-attachments/assets/04ec1a62-9b48-419c-bd8e-cbdf920b6f51)
 
 
 
-Make sure for **your case it is in Private**
+
 ## Access Database
 1 **Plsql Cheat Sheet:**
 You can refer to the PostgreSQL cheat sheet [here](https://www.postgresqltutorial.com/postgresql-cheat-sheet/).
