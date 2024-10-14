@@ -28,7 +28,12 @@ function NewContact(props) {
 
 	return (
         <form className='new-contact' onSubmit={createContact}>
-            <input type='text' placeholder='Name' onChange={(e) => setName(e.target.value)} value={name}/>
+            <select onChange={(e) => setName(e.target.value)} value={name}>
+                <option value='Home'>Home</option>
+                <option value='Work'>Work</option>
+                <option value='Mobile'>Mobile</option>
+                <option value='Others'>Others</option>
+            </select>
             <button className='button green' type='submit'>Create Contact</button>
         </form>
 	);
