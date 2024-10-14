@@ -9,7 +9,8 @@ function Contact(props) {
     useEffect(() => {
         fetch('http://localhost/api/contacts/' + contact.id + '/phones')
             .then(response => response.json())
-            .then(data => setPhones(data))
+            .then(data => {console.log(contact);
+                            setPhones(data)})
             .catch((error) => {
                 console.error('Error:', error);
             });
@@ -37,6 +38,7 @@ function Contact(props) {
         <div key={contact.id} className='contact' onClick={(e) => setExpanded(!expanded)}>
             <div className='title'>
                 <h3>{contact.name}</h3>
+                <p>{contact.address}</p>
                 <button className='button red' onClick={doDelete}>Delete Contact</button>
             </div>
 
