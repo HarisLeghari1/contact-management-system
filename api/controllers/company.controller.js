@@ -91,3 +91,21 @@ exports.delete = (req, res) => {
             });
         });
 };
+// Retrieve all Companies for a specific contact
+exports.findAllByContact = (req, res) => {
+    const contactId = req.params.contactId;
+
+    Companies.findAll({
+        where: { contact_id: contactId }
+    })
+    .then(data => {
+        res.send(data);
+    })
+    .catch(err => {
+        res.status(500).send({
+            message:
+                err.message || "Some error occurred while retrieving companies for the contact."
+        });
+    });
+};
+

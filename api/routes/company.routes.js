@@ -4,6 +4,9 @@ module.exports = app => {
     // Create a new Company
     app.post("/api/companies", companies.create);
 
+    // Retrieve Companies by contact_id
+    app.get("/api/contacts/:contactId/companies", companies.findAllByContact);
+
     // Retrieve all Companies
     app.get("/api/companies", companies.findAll);
 

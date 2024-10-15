@@ -165,3 +165,119 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.company-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.company-list > table {
+    margin-top: 10px;
+}
+.company-list > table > thead > tr > th {
+    padding: 5px;
+}
+.company-list > table > tbody > tr > td {
+    padding: 5px;
+}
+
+.company-list > table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.company-list > table td, .company-list > table th {
+    border: 1px solid #b1b1b1;
+    padding: 8px;
+}
+
+.company-list > table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+/* input style for forms */
+.new-company, .new-phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.new-company > input, .new-phone > input {
+    margin-right: 5px;
+    padding: 8px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #b1b1b1;
+}
+
+/* Adding consistent hover effect for table rows */
+.phone-list > table tbody tr:hover, 
+.company-list > table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+.new-company input,
+.new-phone input {
+    margin-right: 5px;
+    width: 100%;
+    padding: 5px;
+}
+
+.new-company button,
+.new-phone button {
+    margin-left: 5px;
+}
+
+.company-list input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.company-list button {
+    margin-right: 5px;
+}
+.new-phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px; /* Add spacing below the form */
+}
+
+.new-phone > input {
+    margin-left: 5px; /* Add space between the input fields */
+    padding: 5px;
+    width: 100%; /* Ensure full width */
+}
+
+.new-company {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px; /* Add spacing below the form */
+}
+
+.new-company > input {
+    margin-left: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.table th, .table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.table td {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.button {
+    margin-right: 5px; /* Add space between Edit and Delete buttons */
+}
