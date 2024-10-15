@@ -28,6 +28,7 @@ app.get("/", (req, res) => {
 require("./routes/contacts.routes")(app);
 require("./routes/phones.routes")(app);
 require("./routes/stats.routes")(app);
+require("./routes/company.routes")(app); // To register company routes
 
 // set port, listen for requests
 const PORT = 5000;

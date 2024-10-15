@@ -22,5 +22,10 @@ db.sequelize = sequelize;
 /* Create database tables and models */
 db.contacts = require("./contact.model.js")(sequelize, Sequelize);
 db.phones = require("./phone.model.js")(sequelize, Sequelize);
+db.companies = require("./company.model.js")(sequelize, Sequelize); // Company database table and model
+
+//  Foreign key referencing
+db.contacts.hasMany(db.companies, { foreignKey: 'contact_id' });
+db.companies.belongsTo(db.contacts, { foreignKey: 'contact_id' });
 
 module.exports = db;
