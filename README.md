@@ -6,11 +6,48 @@ Please include your shared repository link here:
 https://github.com/HarisLeghari1/A2-Muhammad-20864398.git
 
 ## TASK 1 - USER INTERFACE CHANGES
-1. Change the button label from contact component from "Delete" to "Delete Contact"
+1. Updated the "Delete" button in the contact component to "Delete Contact"
    
    ![image](https://github.com/user-attachments/assets/04ec1a62-9b48-419c-bd8e-cbdf920b6f51)
 
+2. Modified the phone component to dynamically display the contact’s name in the button label (Note: The screenshot included was captured after the completion of all tasks. I apologize for not updating the README file progressively while working on the tasks.)
 
+   ![image](https://github.com/user-attachments/assets/8490236c-a160-49b6-bac7-017a534a157b)
+
+3. Replaced the input field for the phone number type with a drop-down menu offering four categories: Home, Work, Mobile, and Others.
+
+   ![Task 1 Part 3](https://github.com/user-attachments/assets/0ea36fa8-b8ef-4286-8579-def5c79c593c)
+
+4. Updated the label in the table from "Name" to "Phone Type" to match the type of data being displayed
+
+   ![Task 1 Part 4](https://github.com/user-attachments/assets/7fd6206f-2dfe-42c3-a118-6c82c8adc965)
+
+   
+
+## Task 2 - API Command Demonstrations 
+1. Show Contact API Command
+   ![1](https://github.com/user-attachments/assets/c2eccbe8-9f5c-4820-9b7d-91ea8a498177)
+
+2. Add Contact API Command
+   ![2](https://github.com/user-attachments/assets/ba55b5d4-f3b2-4dad-932b-dd5d36c71c6b)
+
+3. Delete Contact API Command
+   ![3](https://github.com/user-attachments/assets/860ae6e4-eb7c-4d6f-83de-8c5be55d785f)
+
+4. Update Contact API Command
+   ![4](https://github.com/user-attachments/assets/67f4a1a7-76e4-4a3b-8475-7fcdc759b64e)
+
+5. Show Phone API Command
+   ![5](https://github.com/user-attachments/assets/5a639ad1-dddd-4c1a-b6b8-caab9a47600d)
+
+6. Add Phone API Command
+    ![6](https://github.com/user-attachments/assets/c680bcea-06a3-4eaf-8af1-b2a91d703d75)
+
+7. Delete Phone API Command
+    ![7](https://github.com/user-attachments/assets/dd06bf16-37da-4c18-92e3-2ebe51102388)
+
+8. Update Phone API Command
+    ![8](https://github.com/user-attachments/assets/7f4c3b3d-f577-497d-bd59-66c9999963ff)
 
 
 ## Access Database
