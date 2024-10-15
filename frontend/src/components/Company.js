@@ -23,7 +23,7 @@ function Company(props) {
 
         const data = await response.json();
 
-        // Update the company list after successful update
+        // Updating the company list after successful update
         if (data.message === 'Company was updated successfully.') {
             const updatedCompanies = companies.map((comp) =>
                 comp.company_id === company.company_id
@@ -31,7 +31,7 @@ function Company(props) {
                     : comp
             );
             setCompanies(updatedCompanies);
-            setIsEditing(false); // Switch back to view mode
+            setIsEditing(false);
         }
     }
 
@@ -49,7 +49,7 @@ function Company(props) {
 
     return (
         <tr>
-            {/* Conditional rendering: show inputs for editing mode */}
+            {/* showing inputs for editing mode */}
             {isEditing ? (
                 <>
                     <td>

@@ -3,7 +3,6 @@ import NewContact from './NewContact.js';
 
 function ContactList(props) {
     const {contacts, setContacts} = props;
-    console.log('Contacts:', contacts); // Add this for debugging
 
 	return (
 		<div className='contact-list'>

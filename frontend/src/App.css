@@ -242,20 +242,20 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 10px; /* Add spacing below the form */
+    margin-bottom: 10px;
 }
 
 .new-phone > input {
-    margin-left: 5px; /* Add space between the input fields */
+    margin-left: 5px;
     padding: 5px;
-    width: 100%; /* Ensure full width */
+    width: 100%;
 }
 
 .new-company {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 10px; /* Add spacing below the form */
+    margin-bottom: 10px;
 }
 
 .new-company > input {
@@ -279,5 +279,5 @@
 }
 
 .button {
-    margin-right: 5px; /* Add space between Edit and Delete buttons */
+    margin-right: 5px;
 }
