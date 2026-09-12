@@ -1,7 +1,7 @@
 # README.md
 
 Repository link:
-https://github.com/HarisLeghari1/A2-Muhammad-20864398.git
+https://github.com/HarisLeghari1/contact-management-system
 
 ## TASK 1 - USER INTERFACE CHANGES
 ### 1. Updated the "Delete" button in the contact component to "Delete Contact"
